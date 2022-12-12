@@ -1,0 +1,65 @@
+ScrollViewExample:
+<ScrollViewExample>:
+    ScrollViewExample:
+        size_hint : 1,none
+        hight : self.minimum_hight
+
+
+<StackLayoutExample>:
+    #orientation
+    #spacing= "20dp","20dp", padding = total number of Button
+    Button:
+        text:"A"
+        size_hint:.2,.2
+    Button:
+        text:"b"
+        size_hint:.2,.2
+    Button:
+        text:"c"
+        size_hint:.2,.2
+    Button:
+        text:"d"
+        size_hint:.2,.2
+
+<GridLayoutExample>:
+#it contain the row and colums 
+    cols:3
+    rows :2
+    Button:
+        text:"A"
+    Button:
+        text:"B"
+    Button:
+        text:"c"
+    Button:
+        text:"D"
+
+<AnchorLayoutExample>:
+    #right, left, center 
+    anchor_x :"right"
+    #center, top, botton
+    anchor_y :"top"
+    BoxLayout:
+        size_hint: .2,.2
+        Button:
+            text: "A"
+        Button:
+            text: "B"
+
+
+
+<Box1>
+    Button:
+        text:"abc"
+    Box1:
+        text:"shubham"
+        size: "299dp", "180dp"
+
+<mainwidget>:
+    Button:
+        text:"first"
+        size: 150,200
+        pos: 100,200
+        color: 0, 1, 0, 1
+    
+    
